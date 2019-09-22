@@ -1,0 +1,227 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: black;
+	width: 100%;
+
+}
+.logo {
+	height: 50px;
+	color: black;
+	background-color: white;
+	position: absolute;
+	top: 5px;
+	left: 80%;
+}
+img.meme {
+	width: 5%;
+	height: 59px;
+	border-image-repeat: none;
+	image-rendering: auto;
+	align-items: center;
+	margin-left: 10px;
+}
+
+img.single {
+	width: 80px;
+	height: 59px;
+	border: none;
+	margin-left: 50px;
+
+}
+
+.baba{
+	position: sticky;
+top: 0px;
+width: 100%
+}
+div#bandeau {
+border: 15px double black;
+
+font-style: italic;
+font-weight: bold;
+width:98%;
+height:60px;
+background-color:#00CCFF;
+
+
+position: relative;
+
+
+
+
+}
+
+
+div#bandeau ul {
+	list-style: none;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	justify-content: space-around
+
+
+
+	
+}
+
+div#bandeau ul li {
+	float: left;
+	color: black;
+	width: 20%;
+	background-color: purple;	
+	height: 50px;
+	line-height: 60px;
+	text-align: center;
+	padding-bottom: 10px;
+	z-index: 100;
+	transition: 0.5s
+}
+
+div#bandeau ul li:hover{
+	background-color: white;
+	text-decoration-line: underline;
+z-index: 100;
+transition: 0.5s
+
+}
+div#bandeau ul ul {
+	display:none;
+	width: 92%;
+	z-index: 1;
+	position: absolute;
+	transition: 0.5s
+	
+	
+
+}
+
+div#bandeau ul ul li {
+	font-size: 18px;
+	height: 50px;
+	z-index: 100;
+	transition: 0.5s
+}
+
+div#bandeau ul li:hover ul{
+	display:flex;
+	z-index: 100;
+flex-direction: column;
+transition: 0.5s
+}
+
+
+
+div#menu {
+float:left;
+width: 15%;
+height:700px;
+background-color:#00CCFF;
+border: 15px double black;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: verdana;
+	font-weight: bold;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	text-decoration-line: underline;
+	background-color: purple;
+
+}
+
+div#menu p {
+	line-height: 112px;
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	font-weight: bold;
+	padding-top: 40px;
+	background-color: purple;
+	border: 2px solid white;
+}
+
+div#menu p span {
+	color: gray;
+	text-decoration-line: underline;
+}
+
+/*----------------------------------------------------------------------*/
+.ma9{width: 100%;
+display: flex;}
+div#contenu {
+float:left;
+width:75%;
+max-height: :3000px;
+background-color:#00CCFF;
+border: 15px double black;
+z-index: -1;
+
+}
+.az{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	}
+td {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+
+}
+div#contenu img {
+	width: 90%;
+	height: 300px;
+	 margin-top: 30px;
+	box-shadow: 2px 2px black;
+
+	
+}
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+ div#contenu table tr td p {
+	background-color: gray;
+	color: black;
+	width: 90%;
+	text-align: center;
+	
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	box-shadow: 2px 2px black;
+}
+
+div#contenu table tr td p span {
+	text-decoration-line: line-through;
+	color: black;
+
+}
+
+
+
+
+
+
+/*
+div#options {
+	background-color: khaki;
+	width: 15%;
+	height:400px;
+	float: right;
+}
+
+div#pied_page {
+border: 15px double green;
+clear:both;
+width:100%;
+height:50px;
+background-color:#33FF99;
+}
+*/
